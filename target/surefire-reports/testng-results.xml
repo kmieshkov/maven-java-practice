@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-13T16:08:28 EDT" name="Surefire suite" finished-at="2022-04-13T16:08:28 EDT" duration-ms="46">
+    <groups>
+    </groups>
+    <test started-at="2022-04-13T16:08:28 EDT" name="Surefire test" finished-at="2022-04-13T16:08:28 EDT" duration-ms="46">
+      <class name="AppiumTest">
+        <test-method signature="nativeAppAndroid()[pri:0, instance:AppiumTest@2d2e5f00]" started-at="2022-04-13T16:08:28 EDT" name="nativeAppAndroid" finished-at="2022-04-13T16:08:28 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppAndroid -->
+        <test-method signature="nativeAppIOS()[pri:0, instance:AppiumTest@2d2e5f00]" started-at="2022-04-13T16:08:28 EDT" name="nativeAppIOS" finished-at="2022-04-13T16:08:28 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppIOS -->
+      </class> <!-- AppiumTest -->
+      <class name="RESTAPITest">
+        <test-method signature="deleteTwitter()[pri:0, instance:RESTAPITest@64c87930]" started-at="2022-04-13T16:08:28 EDT" name="deleteTwitter" finished-at="2022-04-13T16:08:28 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method signature="postJira()[pri:0, instance:RESTAPITest@64c87930]" started-at="2022-04-13T16:08:28 EDT" name="postJira" finished-at="2022-04-13T16:08:28 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- RESTAPITest -->
+      <class name="SeleniumTest">
+        <test-method signature="browserAutomation()[pri:0, instance:SeleniumTest@55040f2f]" started-at="2022-04-13T16:08:28 EDT" name="browserAutomation" finished-at="2022-04-13T16:08:28 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method signature="elementsUI()[pri:0, instance:SeleniumTest@55040f2f]" started-at="2022-04-13T16:08:28 EDT" name="elementsUI" finished-at="2022-04-13T16:08:28 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- SeleniumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
